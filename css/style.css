@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.banner-btn{
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 50px;
+
+}
+
+.ULTIMAS-container{
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ULTIMAS-container li{
+    padding: 0px;
+    height: 0px;
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+}
+
+.ULTIMAS-container .ULTIMAS-der h2{
+    margin-top: 20px;
+}
+
+
+.btn-primary {
+    font-size: 18px; /* Tamaño de la fuente */
+    padding: 11px 20px; /* Espacio de relleno */
+    
+}
+
+#BtnCerrarSesion {
+    margin-left: 10px; /* Agregar margen a la izquierda */
+    background-color: #ff0000; /* Cambiar color de fondo a rojo */
+    color: #efefef; /* Cambiar color de texto a blanco */
+    font-size: 18px; /* Cambiar tamaño de fuente */
+    font-weight: bold; /* Hacer el texto en negrita */
+    border-radius: 5px; /* Agregar bordes redondeados */
+    padding: 10px 20px; /* Agregar relleno */
+    transition: all 0.3s ease; /* Agregar transición suave */
+}
+
+#BtnCerrarSesion:hover {
+    background-color: #cc0000; /* Cambiar color de fondo a rojo oscuro al pasar el mouse */
+}
+
+
+.TxtDecoracion {
+    color: white; /* Cambia el color del texto a blanco */
+    background-color: rgba(182, 47, 47, 0.5); /* Establece un fondo oscuro con transparencia */
+    padding: 20px; /* Añade espacio alrededor del texto */
+}
