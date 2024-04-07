@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caos News</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!--COMIENZO NAVBAR-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a href="/index.html" class="navbar-brand" href=""><img src="../img/logo caosnews.png" height="60"
+          width="60"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="/Pagina/UltimasNoticias.html" class="nav-link" href="#">Ultimas noticias</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/Pagina/Mundo.html" class="nav-link" href="#">Mundo</a>
+          </li>
+          <li class="nav-item">
+            <a href="/Pagina/Deportes.html" class="nav-link" href="#">Deportes</a>
+          </li>
+          <li class="nav-item">
+            <a href="/Pagina/Tendencia.html" class="nav-link" href="#">Música</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Acceder</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                      data-bs-target="#myModal">Iniciar sesión</a></li>
+              <li><a class="dropdown-item" href="#">Registrarse</a></li>
+              <li><a class="dropdown-item" href="#">A third link</a></li>
+          </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--FIN NAVBAR-->
+
+  <!--CONTENIDO-->
+  <div class="container-fluid mt-3">
+
+    <div class="row">
+      <div class="col-sm-6 text-dark p-4 ">
+        <strong>
+        <h2 class="text-center">la banda criminal de origen dominicano que generó masivo operativo en toma de Cerrillos</h2>
+      </strong>
+        <div class="text-right">
+          <i>
+            <h4>Cerca de 1.000 policías llegaron a la toma de Cerrillos.</h4>
+          </i>
+        </div>
+        <p>
+          Los detectives llegaron a eso de las 9.00 para realizar varias entradas y registros de domicilios. En una
+          primera instancia, sin entrar en detalles, el fiscal Patricio Rosas dijo que se trataba de investigaciones
+          en torno a la búsqueda de armas y drogas. “Nos encontramos constituidos en terreno, en la ejecución de
+          entrada y registro emanada por el tribunal de garantía competente, estamos en la fase más operativa”, dijo
+          el persecutor a eso de las 9.30.
+
+        </p>
+        <p>
+          Una hora más tarde, el fiscal Marcos Pastén detalló que el ente persecutor está detrás de “Los Trinitarios”,
+          una banda criminal de origen dominicano, pero que también incluye integrantes de otras nacionalidades.
+          Pastén dijo que se trataba de una investigación de “largo aliento”.
+        </p>
+
+      </div>
+      <div class="col-sm-6 p-3">
+        <img src="/img/banda los trinitarios.avif" class="d-block " alt="ColoColo" width=100%">
+      </div>
+      
+    </div>
+  </div>
+
+  
+ 
+    <div class="text-right p-4">
+      <p>Los integrantes de los Trinitarios ocupaban la toma de Cerrillos para acopiar y distribuir droga. Eso sí,
+        ocupaban empresas de fachada, como barberías, en otras comunas para efectuar el lavado de activos. De
+        hecho, un grupo de policías llegó casi en paralelo hasta una barbería ubicada en Avenida 5 de abril con
+        Aeropuerto, en Estación Central, para realizar diligencias.</p>
+    
+      
+        <p>“Se utilizaron diversas técnicas de investigación, se hicieron las vigilancias y las georreferenciaciones
+          de los puntos para ingresar especialmente a la toma de Cerrillos. Por cuanto tomamos la decisión de
+          hacer un trabajo multidisciplinario para investigar diversos delitos. Los delitos que estamos
+          investigando, en términos generales, se trata de la Ley de Control de Armas, la Ley 20.000 (drogas),
+          asociación ilícita para el narcotráfico y lavado de activos. Sin perjuicio de otros delitos flagrantes
+          que puedan pesquisarse al momento del procedimiento”, dijo el fiscal Pastén.</p>
+      
+
+    </div>
+    <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form>
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Correo:</label>
+              <input type="email" class="form-control" id="txtEmail" placeholder="Enter email" name="txtEmail">
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Contraseña:</label>
+              <input type="password" class="form-control" id="txtPass" placeholder="Enter password" name="txtPass">
+            </div>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+            </div>
+            <a href="/Pagina/Registrado.html" class="btn btn-primary">Primary</a>
+          </form>
+        </div>
+
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>

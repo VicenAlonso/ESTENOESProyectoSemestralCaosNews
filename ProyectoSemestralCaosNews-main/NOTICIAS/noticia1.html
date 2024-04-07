@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COLOCOLO</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!--COMIENZO NAVBAR-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a href="/index.html" class="navbar-brand" href="#"><img src="../img/logo caosnews.png" height="60"
+          width="60"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="/Pagina/UltimasNoticias.html" class="nav-link" href="#">Ultimas noticias</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/Pagina/Mundo.html" class="nav-link" href="#">Mundo</a>
+          </li>
+          <li class="nav-item">
+            <a href="/Pagina/Deportes.html" class="nav-link" href="#">Deportes</a>
+          </li>
+          <li class="nav-item">
+            <a href="/Pagina/Tendencia.html" class="nav-link" href="#">Música</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Acceder</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                      data-bs-target="#myModal">Iniciar sesión</a></li>
+              <li><a class="dropdown-item" href="#">Registrarse</a></li>
+              <li><a class="dropdown-item" href="#">A third link</a></li>
+          </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--FIN NAVBAR-->
+
+  <!--CONTENIDO-->
+  <div class="container-fluid mt-3">
+
+    <div class="row">
+      <div class="col-sm-6 text-dark p-4 ">
+        <strong>
+          <h2 class="text-center">Copa Libertadores: Cepeda salvó a Colo Colo en la agonía ante Cerro Porteño</h2>
+      </strong>
+          <div class="text-right">
+            <p></p>
+            <i>
+              <h4>Colo Colo sumó sus primeros tres puntos en el Grupo A, y en la segunda jornada deberá enfrentar al
+                actual monarca de Copa Libertadores, Fluminense de Brasil.</h4>
+              </i>
+          </div>
+        <p>
+          Un discreto Colo Colo no encontró respuesta ante Cerro Porteño en inicio de Grupo A de Copa Libertadores hasta
+          el epílogo del partido gracias a un sorpresivo héroe. El lateral Lucas Cepeda le dio un agónico y
+          revitalizador triunfo al "Cacique".
+
+        </p>
+        <p>
+          Con el regreso de Arturo Vidal a la titularidad como gran novedad, los dirigidos por Jorge Almirón no fueron
+          capaces de vulnerar el ordenamiento defensivo del elenco guaraní hasta el tiempo agregado. Un Cerro Porteño
+          que vino a Macul a esperar las embestiddas ofensivas del "Cacique" para llevarse al menos un punto a Asunción.
+        </p>
+
+      </div>
+      <div class="col-sm-6 p-3">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/E5wEheQ_aLA?si=XNu4Tgm51d5vPqlr"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="text-right p-4">
+    <p>En los primeros 45 minutos, Leonardo Gil tuvo en sus pies las ocasiones más claras del partido ante un Cerro
+      Porteño que fue al Estadio Monumental a resguardarse y buscar el contraataque. Primero, un tiro libre al área del
+      volante argentino nacionalizado chileno que casi termina en gol tras un rebote en un defensor, pero el arquero
+      Jean Fernandes estuvo atento.</p>
+
+
+    <p>Luego, nuevamente Leonardo Gil estuvo cerca de anotar aprovechando una buena jugada asociada entre Carlos
+      Palacios y Guillermo Paiva para adentrase al área para quedar frente al arco, pero el balón se fue ligeramente
+      desviado.
+
+      En el complemento, los dirigidos por Jorge Almirón siguieron con la misma intensidad ofensiva de la primera
+      fracción. A los 56´, Gil abrió el balón hacia la izquierda para Palacios, quien enganchó y disparó, pero Jean
+      evitó la conquista con sus reflejos.</p>
+
+
+  </div>
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form>
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Correo:</label>
+            <input type="email" class="form-control" id="txtEmail" placeholder="Enter email" name="txtEmail">
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Contraseña:</label>
+            <input type="password" class="form-control" id="txtPass" placeholder="Enter password" name="txtPass">
+          </div>
+          <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>
+          <a href="/Pagina/Registrado.html" class="btn btn-primary">Primary</a>
+        </form>
+      </div>
+
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

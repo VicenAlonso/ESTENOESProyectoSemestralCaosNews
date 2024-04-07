@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caos News</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .carousel-caption a {
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--COMIENZO NAVBAR-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href=""><img src="/img/logo caosnews.png" height="60" width="60"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="/Pagina/UltimasNoticiasReg.html" class="nav-link" href="#">Ultimas Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Pagina/MundoReg.html" class="nav-link" href="#">Mundo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Pagina/Deportesreg.html" class="nav-link " href="#">Deportes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Pagina/TendenciaReg.html" class="nav-link" href="#">Música</a>
+                    </li>
+
+                </ul>
+            </div>
+            
+            <!-- Button to trigger modal -->
+            <button type="button" id="cerrarSesionBtn" class="btn btn-danger  " data-bs-toggle="modal"
+                data-bs-target="#myModal">Cerrar Sesión</button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">¿Estás seguro de que deseas cerrar sesión?
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <a href="/index.html" class="btn btn-primary">Si, Cerrar Sesión</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+
+    </nav>
+
+    <section class="banner" style="background-image: url('/img/fondo.jpg'); background-size: auto; ">
+        <div class="container p-4 my-1 text-white text-center">
+            <br>
+            <h1>CAOS NEWS</h1>
+            <h5>Tu fuente confiable de información diaria.</h5>
+        </div>
+    </section>
+    <!--COMIENZO CAROUSEL-->
+    <div class="container mt-2">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="/NOTICIAS/noticia1reg.html">
+                        <img src="../img/camiseta colo colo (1).jpg" class="d-block" alt="ColoColo" style="width: 100%">
+                    </a>
+                    <div class="carousel-caption text-decoration" id="TxtDecoracion">
+
+                        <h4 class="bg-secondary bg-opacity-50">¡Colo Colo saca la cara por Chile! Con golazo de Cepeda debuta con un agónico triunfo en Copa Libertadores 2024
+                        </h4>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <a href="/NOTICIAS/noticia2reg.html">
+                    <img src="../img/santiago.jpg" alt="Chicago" class="d-block" style="width: 100%;" >
+                </a>
+                    <div class="carousel-caption text-white">
+                        <h4 class="bg-secondary bg-opacity-50">“Los Trinitarios”: la banda criminal de origen dominicano que generó masivo operativo en toma de Cerrillos</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/NOTICIAS/noticia3reg.html">
+                    <img src="../img/aaaa.png" alt="New York" class="d-block" style="width: 100%;" >
+                </a>
+                    <div class="carousel-caption text-white">
+                        <h4 class="bg-secondary bg-opacity-50">La estrella del K-pop Karina pone fin a su relación un mes después de disculparse por tener novio</h4>
+                    </div>
+                </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container p-5 my-5 bg-dark text-white">
+        <h3>Carousel Example</h3>
+        <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+    </div>
+    <!--FIN CAROUSEL-->
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label">Correo:</label>
+                            <input type="email" class="form-control" id="txtEmail" placeholder="Enter email"
+                                name="txtEmail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pwd" class="form-label">Contraseña:</label>
+                            <input type="password" class="form-control" id="txtPass" placeholder="Enter password"
+                                name="txtPass">
+                        </div>
+                        <div class="form-check mb-3">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                            </label>
+                        </div>
+                        <a href="NOTICIAS/Registrado.html" class="btn btn-primary">Primary</a>
+                    </form>
+                </div>
+
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+</body>
+
+</html>

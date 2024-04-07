@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.ULTIMAS-container{
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ULTIMAS-container li{
+    padding: 0px;
+    height: 0px;
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+}
+
+.ULTIMAS-container .ULTIMAS-der h2{
+    margin-top: 20px;
+}
+
+/*logo*/
+#logo{
+    background-color: rgb(13, 77, 160);
+}
+
+.logo-container{
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo-container li{
+    flex-basis: 30%;
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo-container li h4{
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.logo-titulo{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 5%;
+    text-align: center;
+    color:white;
+}
+@media(max-width:600px){
+    .Uchiha-container li{
+        flex-basis: 100%;
+        margin-bottom: 60px;
+    }
+
+    .Uchiha-container li p{
+        text-align: justify;
+    }
+}
+
